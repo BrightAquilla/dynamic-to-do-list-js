@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 // Select DOM elements for task input, add button, and task list container
-const addButton = document.getElementById('add-task');
+const addtaskButton = document.getElementById('add-task');
 const taskInput = document.getElementById('task-input');
 const taskList = document.getElementById('task-list');
 
