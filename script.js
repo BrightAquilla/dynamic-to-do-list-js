@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 // Select DOM elements for task input, add button, and task list container
-const addtaskButton = document.getElementById('add-task');
+const addButton = document.getElementById('add-task-btn'); // Corrected to match expected button ID
 const taskInput = document.getElementById('task-input');
 const taskList = document.getElementById('task-list');
 
@@ -34,7 +34,6 @@ taskList.appendChild(li);
 
 // Clear the task input field for the next entry
 taskInput.value = '';
-
 }
 
 // Attach event listener to the add button to call addTask on click
@@ -46,7 +45,4 @@ if (event.key === 'Enter') {
 addTask();
 }
 });
-
-// Optionally, invoke addTask here if you want to add a default task on load:
-// addTask();
 });
