@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
 const addButton = document.getElementById('add-task-btn'); // Corrected to match expected button ID
 const taskInput = document.getElementById('task-input');
 const taskList = document.getElementById('task-list');
+const myElement = document.getElementById("box");
+myElement.classList.add("active");
 
 // Function to add a new task to the list
 function addTask() {
